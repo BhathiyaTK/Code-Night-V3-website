@@ -18,4 +18,4 @@ Code night V3.0 hackthon is an inter faculty hackthon which organized annually b
 
 #### Links
 - Website - 
-- Android app - 
+- Android app - https://play.google.com/store/apps/details?id=com.malshikay.codenight_app
