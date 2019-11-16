@@ -1,0 +1,163 @@
+/*--------------------------------------------------------------
+# Responsive Media Queries
+--------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+    #intro img {
+        width: 100%;
+    }
+    /* Countdown section */
+    .countdown-sec {
+        width: 100%;
+        margin: 15px 0 30px;
+    }
+    .countdown {
+        display: flex;
+    }
+    .counter-div {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .counter-div span {
+        font-size: 2.1em;
+        color: #cad4f6;
+        font-weight: 600;
+        letter-spacing: 4px;
+    }
+    .counter-second span {
+        color: #e51616;
+    }
+    .counter-div .smalltext {
+        color: #cad4f6;
+        font-size: 13px;
+    }
+    .forms-div .form {
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+    /* Registration status page */
+    .status-div {
+        width: 90%;
+        padding: 10px 20px 10px;
+    }
+    .status-div img {
+        width: 40%;
+        margin-top: 20px;
+    }
+    .status-div h3 {
+        font-size: 24px;
+    }
+    .status-div p {
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 767px) {
+    #subscribe input {
+        min-width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    #contact .contact-address,
+    #contact .contact-phone,
+    #contact .contact-email {
+        padding: 20px 0;
+    }
+    #contact .contact-phone {
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+}
+
+@media (min-width: 991px) {
+    #schedule .sub-heading {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #intro {
+        background-attachment: fixed;
+    }
+    #about {
+        background-attachment: fixed;
+    }
+    #subscribe {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 1199px) {
+    #header .container {
+        max-width: 100%;
+    }
+    .nav-menu a {
+        padding: 8px 4px;
+    }
+}
+
+@media (max-width: 991px) {
+    #header {
+        background: rgba(6, 12, 34, 0.98);
+        height: 70px;
+        padding: 15px 0;
+        transition: all 0.5s;
+    }
+    #nav-menu-container {
+        display: none;
+    }
+    #mobile-nav-toggle {
+        display: inline;
+    }
+    #intro .intro-container {
+        top: 70px;
+    }
+    #intro h1 {
+        font-size: 34px;
+    }
+    #intro p {
+        font-size: 16px;
+    }
+    #schedule .nav-tabs a {
+        padding: 8px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 15px;
+    }
+    #faq #faq-list a {
+        font-size: 18px;
+    }
+    #faq #faq-list i {
+        top: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    #schedule .nav-tabs a {
+        padding: 8px 50px;
+    }
+}
+
+@media (max-width: 574px) {
+    #venue .venue-info h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    #schedule .nav-tabs a {
+        padding: 8px 30px;
+    }
+}
+
+@media (max-width: 460px) {
+    #subscribe button {
+        margin-top: 10px;
+    }
+}
