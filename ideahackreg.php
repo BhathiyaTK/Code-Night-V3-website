@@ -193,12 +193,6 @@
     });
     
     $.validate();
-
-    $(function(){
-      $("#ideaHackRegForm").on('submit',function(){
-        $.validate();
-      });
-    });
   </script>
 
 </body>
