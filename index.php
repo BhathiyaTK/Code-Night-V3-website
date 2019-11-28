@@ -1,4 +1,6 @@
 <?php
+require_once 'mailer/class.phpmailer.php';
+
 if (($_SERVER['REQUEST_METHOD'] == "POST")) {
   if (isset($_POST["contact_us"])) {
     $name = $_POST["name"];

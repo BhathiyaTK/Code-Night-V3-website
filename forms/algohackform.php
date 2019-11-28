@@ -7,7 +7,7 @@
     <form method="post" role="form" class="contactForm" id="algoHackRegForm">
         <h5>Team Name</h5>
         <div class="form-group">
-            <input type="text" name="TeamName" class="form-control" id="TeamName" placeholder="Team Name" data-validation="length custom" data-validation-regexp="^([a-zA-Z\s]{3,})$" data-validation-length="5-15" data-validation-error-msg="Team name allows only (A-Z, a-z) values (5-15 chars)" />
+            <input type="text" name="TeamName" class="form-control" id="TeamName" placeholder="Team Name" data-validation="length custom" data-validation-regexp="^([a-zA-Z\s]{3,})$" data-validation-length="5-15" data-validation-error-msg="Team name can contain alpabetical values only (5-15 chars)" />
         </div>
         <h5 class="mt-4">Team Leader's Details</h5>
         <div class="form-group">
