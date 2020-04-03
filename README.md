@@ -1,5 +1,5 @@
 # Code Night v3.0 hackthon 2019 website :earth_asia:
-Code night V3.0 hackthon is an inter faculty hackthon which organized annually by faculty of Applied Sciences at Sabaragamuwa University of Sri Lanka. This website is fully featured and responsive website that used Firebase as backend. There is an android app:iphone: which developed parallely with this website.
+Code night V3.0 hackthon is an inter faculty hackthon which organized annually by faculty of Applied Sciences at Sabaragamuwa University of Sri Lanka. This website is fully featured and responsive website that used Firebase as backend. There is an android app:iphone: which developed parallely with this website and sync all data using same firebase real-time database.
 
 ### Technologies used :computer: 
 - HTML5
